@@ -12,6 +12,10 @@
         <c:if test="${param.error != null}">
             <i>Soory enter worng credential</i>
         </c:if>
+        <!--Logout -->
+        <c:if test="${param.logout != null}">
+            <i>You are Logged Out</i>
+        </c:if>
         <p>User Name: <input type="text" name="username"></p>
         <p>Password: <input type="password" name="password"></p>
         <input type="submit" value="Login">
